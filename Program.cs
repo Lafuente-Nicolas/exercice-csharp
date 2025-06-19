@@ -76,3 +76,18 @@ else
     Console.WriteLine("C'est un nombre pair");
 }*/
 
+
+// 11. Écrire un programme qui vérifie si un nombre est compris entre 10 et 20.
+
+/*int number;
+Console.WriteLine("écrivez un nombre:");
+number = Convert.ToInt32(Console.ReadLine());
+
+if (number > 10 && number < 20)
+{
+    Console.WriteLine("Le nombre est compris entre 10 et 20");
+        }
+else
+{
+    Console.WriteLine("Le nombre n'est pas compris entre 10 et 20");
+};*/
