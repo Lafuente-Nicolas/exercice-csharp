@@ -110,3 +110,19 @@ else
 {
     Console.WriteLine("Vous êtes un adolescent");
 }*/
+
+// 13. Créer un programme qui vérifie si une année est bissextile ou non.
+
+/*int nombre;
+Console.WriteLine("Choissisez une année");
+nombre = Convert.ToInt32(Console.ReadLine());
+
+if ( 0 == nombre % 4 && nombre %100 != 0)
+{
+    Console.WriteLine("C'est une année bissextile");
+}
+else
+{
+    Console.WriteLine("Ce n'est pas une année bissextile");
+};*/
+
