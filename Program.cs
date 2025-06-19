@@ -178,3 +178,14 @@ for (int i = 0; i < mot.Length ; i++)
         Console.WriteLine(i);
     }
 };*/
+
+// 23. Utiliser une boucle pour afficher chaque élément d'un tableau.
+
+/*string element;
+Console.WriteLine("choissisez des nombres");
+element = Console.ReadLine();
+
+for (int i = 0; i < element.Length; i++)
+{
+    Console.WriteLine(i);
+};*/
