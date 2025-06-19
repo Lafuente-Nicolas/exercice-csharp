@@ -145,3 +145,20 @@ else
     Console.WriteLine("Soit il n'est pas positif ou multipliable par 5");
 };
 */
+
+// 15. Écrire un programme qui vérifie si une chaîne de caractères contient la lettre 'a'.
+
+/*string mot;
+Console.WriteLine("écrivez un mot");
+mot = Console.ReadLine();
+for (int i = 0; i < mot.Length ; i++)
+{
+    if (mot == "a")
+    {
+        Console.WriteLine("Il y a un a ");
+    }
+    else
+    {
+        Console.WriteLine("Il n'y a pas de a");
+    }
+};*/
