@@ -91,3 +91,22 @@ else
 {
     Console.WriteLine("Le nombre n'est pas compris entre 10 et 20");
 };*/
+
+// 12. Demander à l'utilisateur un âge et afficher s'il est un enfant (moins de 12 ans), un adolescent (entre 12 et 18 ans) ou un adulte (plus de 18 ans).
+
+/*int nombre;
+Console.WriteLine("Mettez votre âge");
+nombre = Convert.ToInt32(Console.ReadLine());
+
+if (nombre > 18)
+{
+    Console.WriteLine("Vous êtes majeur");
+}
+else if (nombre < 12 )
+{
+    Console.WriteLine("Vous êtes un enfant");
+}
+else
+{
+    Console.WriteLine("Vous êtes un adolescent");
+}*/
