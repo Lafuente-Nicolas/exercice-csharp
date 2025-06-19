@@ -162,3 +162,10 @@ for (int i = 0; i < mot.Length ; i++)
         Console.WriteLine("Il n'y a pas de a");
     }
 };*/
+
+// 21. Afficher les nombres de 1 à 10 avec une boucle `for`.
+
+/*for (int i = 1; 10>= i; i++)
+{
+    Console.WriteLine(i);
+};*/
