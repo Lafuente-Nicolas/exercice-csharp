@@ -126,3 +126,22 @@ else
     Console.WriteLine("Ce n'est pas une année bissextile");
 };*/
 
+// 14. Vérifier si un nombre est positif et multiple de 5.
+
+/*int nombre;
+Console.WriteLine("écrivez un nombre:");
+nombre = Convert.ToInt32(Console.ReadLine());
+
+ if (nombre > 0 && nombre % 5 == 0)
+{
+    Console.WriteLine("Le nombre est positif et multupliable par 5");
+}
+else if (nombre % 5 == 0)
+{
+    Console.WriteLine("Le nombre est multipliable par 5");
+}
+else
+{
+    Console.WriteLine("Soit il n'est pas positif ou multipliable par 5");
+};
+*/
