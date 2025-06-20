@@ -209,3 +209,14 @@ while (i <= 10)
     Console.WriteLine(i);
     i++;
 };*/
+
+// 32. Utiliser une boucle `while` pour calculer la somme des nombres de 1 à 100.
+
+/*int i = 1;
+int somme = 0;
+while (i <= 100)
+{
+    somme = somme + i;
+    i++;
+};
+Console.WriteLine(somme);*/
