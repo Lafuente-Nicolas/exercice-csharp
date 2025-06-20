@@ -200,3 +200,12 @@ for (int i = 1; i <= 10; i++)
 {
     Console.WriteLine(i * nombre);
 };*/
+
+// 31. Utiliser une boucle `while` pour afficher les nombres de 1 à 10.
+
+/*int i =1;
+while (i <= 10)
+{
+    Console.WriteLine(i);
+    i++;
+};*/
