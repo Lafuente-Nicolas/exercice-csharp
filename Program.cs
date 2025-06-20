@@ -220,3 +220,59 @@ while (i <= 100)
     i++;
 };
 Console.WriteLine(somme);*/
+
+// 33. Demander à l'utilisateur un nombre et continuer à demander tant que ce nombre est négatif.
+
+/*int nombre;
+Console.WriteLine("écrivez un nombre");
+nombre = Convert.ToInt32(Console.ReadLine());
+if (nombre > 0)
+{
+    Console.WriteLine("Le nombre est positif");
+}
+else
+{
+    while (nombre < 0)
+    {
+        Console.WriteLine("écrivez un nombre");
+        nombre = Convert.ToInt32(Console.ReadLine());
+        
+    }
+    if (nombre > 0)
+    {
+        Console.WriteLine("Le nombre est positif");
+    }
+};*/
+
+// Autre méthode:
+/*
+int nombre;
+do
+{
+    Console.WriteLine("écrivez un nombre positif");
+    nombre = Convert.ToInt32(Console.ReadLine());
+
+} while (nombre < 0);
+Console.WriteLine("Le nombre est positif");*/
+
+// Exercice 5: Gestion des notes
+
+
+
+/*int[] notes = new int[5];
+const int nbNotes = 5;
+for (int i = 0; i < nbNotes; i++)
+{
+    do
+    {
+        Console.WriteLine($"/t- Merci de saisir la note {i + 1} (sur /20)");
+        notes[i] = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine();
+    } while (notes[i] < 0 || notes[i] > 20);
+
+    Console.BackgroundColor = ConsoleColor.Green;
+    Console.WriteLine($"La moyenne est de {notes.Average()}");
+    Console.WriteLine($"La note la plus élévé est {notes.Max()}");
+    Console.WriteLine($"La note la moin élevé est {notes.Min()}");
+
+};*/
