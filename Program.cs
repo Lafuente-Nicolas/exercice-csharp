@@ -153,7 +153,7 @@ Console.WriteLine("écrivez un mot");
 mot = Console.ReadLine();
 for (int i = 0; i < mot.Length ; i++)
 {
-    if (mot == "a")
+    if (mot[i] == 'a')
     {
         Console.WriteLine("Il y a un a ");
     }
@@ -161,8 +161,8 @@ for (int i = 0; i < mot.Length ; i++)
     {
         Console.WriteLine("Il n'y a pas de a");
     }
-};*/
-
+};
+*/
 // 21. Afficher les nombres de 1 à 10 avec une boucle `for`.
 
 /*for (int i = 1; 10>= i; i++)
@@ -188,4 +188,15 @@ element = Console.ReadLine();
 for (int i = 0; i < element.Length; i++)
 {
     Console.WriteLine(i);
+};*/
+
+// 24. Demander à l'utilisateur un nombre de 1 à 10 et afficher la table de multiplication.
+
+/*int nombre;
+Console.WriteLine("Saisissez un nombre entre 1 et 10");
+nombre = Convert.ToInt32(Console.ReadLine());
+
+for (int i = 1; i <= 10; i++)
+{
+    Console.WriteLine(i * nombre);
 };*/
