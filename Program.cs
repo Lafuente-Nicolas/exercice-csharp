@@ -276,3 +276,40 @@ for (int i = 0; i < nbNotes; i++)
     Console.WriteLine($"La note la moin élevé est {notes.Min()}");
 
 };*/
+
+Console.WriteLine("---Le nombre mystère---");
+int nombre;
+Console.WriteLine("Veuillez saisir un nombre:");
+nombre = Convert.ToInt32(Console.ReadLine());
+Random nombreAléatoire = new Random( );
+int nbAléatoire = nombreAléatoire.Next(1,50);
+int i = 0;
+int nbCoups = 0;
+while ( i < 1)
+{
+    if (nombre > nbAléatoire)
+    {
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine("\nLe nombre mystère est plus petit");
+        Console.WriteLine("Veuillez saisir un nombre:");
+        nombre = Convert.ToInt32(Console.ReadLine());
+        nbCoups++;
+    }
+    else if (nombre < nbAléatoire)
+    {
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine("\nLe nombre mystère est plus grand");
+        Console.WriteLine("Veuillez saisir un nombre:");
+        nombre = Convert.ToInt32(Console.ReadLine());
+        nbCoups++;
+    }
+    else
+    {
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine("Bien joué!! Tu as trouvé !");
+        Console.WriteLine($"Vous avez trouvé en {nbCoups} coups. ");
+        i++;
+        break;
+    }
+}
+
