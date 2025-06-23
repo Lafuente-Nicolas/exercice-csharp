@@ -338,6 +338,87 @@ prénoms.Sort();
 Console.WriteLine(String.Join(" - ", prénoms));
 */
 
+/*Dictionary<string, string> capitales = new Dictionary<string, string>();
+string userInput = "";
+string recherche = "";
+do
+{
+    Console.WriteLine("---Saisissez un pays, sinon tapez fin---");
+    userInput = Console.ReadLine();
+
+    if (userInput != "fin")
+    {
+        Console.WriteLine("Donnez la capitale");
+        capitales.Add(userInput, Console.ReadLine());
+    }
+}
+while (userInput != "fin");
+
+Console.WriteLine("Rechercher la capitale avec un pays");
+recherche = Console.ReadLine();
+if (capitales.ContainsKey(recherche))
+{
+    Console.WriteLine(capitales[recherche]);
+};
+*/
+
+/*
+using System;
+
+Dictionary<string, string> capitales = new Dictionary<string, string>();
+string userInput = "";
+string recherche = "";
+string couples = "";
+
+
+while (1 > 0)
+{
+    Console.WriteLine("Tapez sur A pour aller sur saisir un pays et une capitale");
+    Console.WriteLine("Tapez sur B pour rechercher une capitale avec un pays");
+    userInput = Console.ReadLine();
+    Console.Clear();
+
+
+    switch (userInput)
+    {
+        case "A":
+            if (userInput == "A")
+                Console.WriteLine("---Saisissez un pays, sinon tapez fin---");
+            couples = Console.ReadLine();
+            Console.WriteLine("Donnez la capitale");
+            capitales.Add(userInput, Console.ReadLine());
+            break;
+
+        case "B":
+            if (userInput == "B")
+                Console.WriteLine("Rechercher la capitale avec un pays");
+            recherche = Console.ReadLine();
+            if (capitales.ContainsKey(recherche))
+            {
+                Console.WriteLine(capitales[recherche]);
+            }
+            break;
+    }
+}
+;
+*/
+
+//  Demander à l'utilisateur un mot de passe et vérifier s'il correspond à "admin".
+
+
+/*string mdp = "Nico";
+string user = "";
+Console.WriteLine("écrivez votre mdp");
+user = Console.ReadLine();
+
+if ( mdp == user)
+{
+    Console.WriteLine("Vous êtes l'admin");
+}
+else
+{
+    Console.WriteLine("Vous n'êtes pas l'admin");
+};*/
 
 
 
