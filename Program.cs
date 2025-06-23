@@ -421,10 +421,14 @@ else
 };*/
 
 
+//Afficher les nombres de 10 à 1 en ordre décroissant avec une boucle.
 
-
-
-
+/*int nombre = 10;
+for(int i = 1; i <= nombre; i++)
+{
+    Console.WriteLine(i);
+};
+*/
 
 
 
