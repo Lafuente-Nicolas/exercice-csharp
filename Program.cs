@@ -430,6 +430,16 @@ for(int i = 1; i <= nombre; i++)
 };
 */
 
+//41. Utiliser une boucle pour afficher les nombres de 1 à 20, mais arrêter dès que vous atteignez 10.
+
+/*int nombre = 20;
+for(int i = 1; i <= nombre; i++)
+{
+    if ( i == 10)
+    {
+        Console.WriteLine(i);
+    }
+}*/
 
 
 
