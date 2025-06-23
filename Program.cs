@@ -258,8 +258,8 @@ Console.WriteLine("Le nombre est positif");*/
 // Exercice 5: Gestion des notes
 
 
-
-/*int[] notes = new int[5];
+/*
+int[] notes = new int[5];
 const int nbNotes = 5;
 for (int i = 0; i < nbNotes; i++)
 {
@@ -275,19 +275,19 @@ for (int i = 0; i < nbNotes; i++)
     Console.WriteLine($"La note la plus élévé est {notes.Max()}");
     Console.WriteLine($"La note la moin élevé est {notes.Min()}");
 
-};*/
-
-Console.WriteLine("---Le nombre mystère---");
-int nombre;
+};
+*/
+/*Console.WriteLine("---Le nombre mystère---");
+int nombre;   // initia de la variable nombre
 Console.WriteLine("Veuillez saisir un nombre:");
-nombre = Convert.ToInt32(Console.ReadLine());
-Random nombreAléatoire = new Random( );
+nombre = Convert.ToInt32(Console.ReadLine());   // je converti la saissie nombre (string) en nombre entier (int)
+Random nombreAléatoire = new Random( );         
 int nbAléatoire = nombreAléatoire.Next(1,50);
-int i = 0;
-int nbCoups = 0;
-while ( i < 1)
+int i = 0;                                     // je déclare une variable i (int)
+int nbCoups = 0;                               // je déclare une variable nbCoups (pour compter le nombre de tentative )
+while ( i < 1)                                 // 
 {
-    if (nombre > nbAléatoire)
+    if (nombre > nbAléatoire)                  // si nombre est plus grand que le nombre aléatoire, j'affiche une erreur et passe a la condition suivante 
     {
         Console.ForegroundColor = ConsoleColor.Red;
         Console.WriteLine("\nLe nombre mystère est plus petit");
@@ -311,5 +311,13 @@ while ( i < 1)
         i++;
         break;
     }
-}
+}*/
 
+int[] notes = { 10, 12, 15, 8 };
+if (notes.Length <=0)
+{
+    Console.WriteLine("le tableau est vide");
+} else
+{
+    Console.WriteLine($"la moyenne est{notes.Average()}");
+};
