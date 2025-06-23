@@ -313,11 +313,17 @@ while ( i < 1)                                 //
     }
 }*/
 
-int[] notes = { 10, 12, 15, 8 };
-if (notes.Length <=0)
+/*int[] notes = { 10, 12, 15, 8 };
+if (notes.Length==0)
 {
     Console.WriteLine("le tableau est vide");
 } else
 {
     Console.WriteLine($"la moyenne est{notes.Average()}");
 };
+*/
+
+int[] valeurs = { 10, 14, 18, 14 };
+Console.WriteLine($"La valeur minimale est {valeurs.Min()}");
+Console.WriteLine($"La valeur maximale est {valeurs.Max()}");
+Console.WriteLine($"La valeur minimale est {valeurs.Average()}");
