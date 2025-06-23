@@ -323,7 +323,31 @@ if (notes.Length==0)
 };
 */
 
-int[] valeurs = { 10, 14, 18, 14 };
+/*int[] valeurs = { 10, 14, 18, 14 };
 Console.WriteLine($"La valeur minimale est {valeurs.Min()}");
 Console.WriteLine($"La valeur maximale est {valeurs.Max()}");
-Console.WriteLine($"La valeur minimale est {valeurs.Average()}");
+Console.WriteLine($"La valeur minimale est {valeurs.Average()}");*/
+
+
+/*
+List<string> prénoms = new List<string>();
+prénoms.Add("Nicolas");
+prénoms.Add("Jean");
+prénoms.Add("Thomas");
+prénoms.Sort();
+Console.WriteLine(String.Join(" - ", prénoms));
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
