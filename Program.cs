@@ -443,7 +443,7 @@ for(int i = 1; i <= nombre; i++)
 
 //Exercice 4 du cours sur les collections
 
-int compteur = 0;
+/*int compteur = 0;
 int[] valeurs = { 1, 2, 3, 4, 5 };
 List<string> prenoms = new List<string>();
 prenoms.Add("Nico");
@@ -478,4 +478,28 @@ foreach(var pays in paires)
     Console.WriteLine($"{pays.Key} : {pays.Value}");
     compteur++;
 };
-Console.WriteLine(compteur);
+Console.WriteLine(compteur);*/
+
+//Exercice 1 : Premiers pas avec les fonctions
+/*
+class Program
+{
+    static void AfficherSeparateur()
+    {
+        Console.WriteLine(new string('-', 30));
+    }
+
+    static void Main(string[] args)
+    {
+        AfficherSeparateur();
+    }
+};*/
+
+// Fonction qui affiche une salutation personnalisée
+/*static void Saluer(string prenom, int age)
+{
+    Console.WriteLine($"Bonjour {prenom}, vous avez {age} ans.");
+}
+
+// Appel de la fonction
+Saluer("Alice", 30);*/
