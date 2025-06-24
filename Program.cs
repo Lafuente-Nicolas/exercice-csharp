@@ -503,3 +503,48 @@ class Program
 
 // Appel de la fonction
 Saluer("Alice", 30);*/
+/*
+// Fonction qui affiche un message plusieurs fois, avec un paramètre optionnel pour le nombre de répétitions
+
+static void RepeterMessage(string message, int repetitions = 1)
+{
+    for (int i = 0; i < repetitions; i++)
+    {
+        Console.WriteLine(message);
+    }
+}
+
+// Appels de la fonction
+RepeterMessage("Bonjour");       // utilise la valeur par défaut repetitions=1
+RepeterMessage("Salut", 3);      // spécifie repetitions=3*/
+
+
+
+// Exercice 2 : Fonction avec paramètres et retour
+internal class Program
+{
+    static int Additionner(int a, int b)
+    {
+        int resultat = a + b;
+        return resultat;
+    }
+
+    static bool EstPair(int nombre)
+    {
+        return (nombre % 2 == 0);
+    }
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Saisissez la 1ère valeur");
+
+        int a = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("Saisissez la 2nd valeur");
+
+        int b = int.Parse(Console.ReadLine());
+
+        Console.WriteLine($" résulat :{Additionner(a, b)}");
+        Console.WriteLine($"Le résultat est pair:{EstPair(Additionner(a, b))}");
+    }
+
+};
