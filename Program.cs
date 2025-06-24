@@ -441,8 +441,41 @@ for(int i = 1; i <= nombre; i++)
     }
 }*/
 
+//Exercice 4 du cours sur les collections
 
+int compteur = 0;
+int[] valeurs = { 1, 2, 3, 4, 5 };
+List<string> prenoms = new List<string>();
+prenoms.Add("Nico");
+prenoms.Add("Thomas");
+prenoms.Add("Caro");
+prenoms.Add("Jim");
 
+var paires = new Dictionary<string, string>
+{
+    ["France"] = "Paris",
+    ["Espagne"] = "Madrid",
+    ["Allemagne"] = "Berlin"
 
+};
 
+foreach (int n in valeurs)
+{
+    Console.Write($" {n}");
+    compteur++;
+};
+Console.WriteLine();
+int compteurPrenom = 0;
+foreach (string prenom in prenoms)
+{
+    Console.WriteLine($" {compteurPrenom} : {prenom}");
+    compteurPrenom++;
+    compteur++;
+};
 
+foreach(var pays in paires)
+{
+    Console.WriteLine($"{pays.Key} : {pays.Value}");
+    compteur++;
+};
+Console.WriteLine(compteur);
