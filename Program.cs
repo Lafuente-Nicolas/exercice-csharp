@@ -677,3 +677,31 @@ for (int i = 0; i < tab_0.Length; i++)
     somme += (tab_1[i] * tab_0[i]);
     Console.WriteLine(somme);
 }*/
+
+//53.Utiliser des boucles imbriquées pour afficher une pyramide de nombres.
+
+/*string ligne = "";
+string pyramide = "";
+int chiffre = 1;
+string userInput = "";
+int userInputInInt = 0;
+
+do
+{
+    Console.WriteLine("Entrez une taille de pyramide");
+    userInput = Console.ReadLine();
+} while (!int.TryParse(userInput, out userInputInInt));
+
+
+for (int i = 0; i < userInputInInt; i++)
+{
+    for (int j = 0; j < i; j++)
+    {
+        ligne += $"{chiffre} ";
+        chiffre++;
+    }
+    pyramide += $"{ligne}\n";
+    ligne = "";
+}
+
+Console.WriteLine(pyramide);*/
