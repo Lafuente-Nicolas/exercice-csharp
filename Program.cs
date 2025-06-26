@@ -592,7 +592,7 @@ for (int i = 0; nombre > i; i++)
 
 // 47. Utiliser `break` pour quitter une boucle infinie après 5 itérations.
 
-int i = 1;
+/*int i = 1;
 int nombre = 2;
 int count = 0;
 while(i < nombre)
@@ -607,4 +607,16 @@ while(i < nombre)
         count++;
        
     }
-};
+};*/
+// 44. Écrire une boucle qui affiche les nombres de 1 à 20, mais saute les multiples de 3.
+
+/*int nombre = 20;
+for ( int i = 1; i <=20; i++)
+{
+    int divisible = 3;
+    if ( i % divisible  == 0)
+    {
+        continue;
+    }
+    Console.WriteLine(i);
+};*/
