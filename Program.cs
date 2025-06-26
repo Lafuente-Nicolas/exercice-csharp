@@ -705,3 +705,14 @@ for (int i = 0; i < userInputInInt; i++)
 }
 
 Console.WriteLine(pyramide);*/
+
+// 67. Écrire une boucle qui fusionne deux listes en une seule.
+
+
+/*List<object> liste1 = new List<object> { 5, 89, 79, 4, false };
+List<object> liste2 = new List<object> { 8, 9, 12, "azed", 7.7, 9 };
+
+foreach (var item in liste2)
+    liste1.Add(item);
+
+Console.WriteLine(string.Join('-', liste1));*/
