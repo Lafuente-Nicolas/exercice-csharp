@@ -633,3 +633,19 @@ if (nombreS != nombreI)
         nombreS--;
     }
 };*/
+
+// 39. Afficher les nombres pairs de 2 à 200 si ils sont divisible par 3 avec une boucle `while`.
+
+/*int nombreS = 200;
+int nombres = 2;
+int divisible = 3;
+int pair = 2;
+
+while(nombres <= nombreS)
+{
+    if (nombres % divisible  == 0 && nombres % pair == 0 )
+    {
+        Console.WriteLine(nombres);
+    }
+    nombres++;
+};*/
