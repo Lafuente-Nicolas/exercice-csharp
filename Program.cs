@@ -565,8 +565,12 @@ XXXX
 XXXX
 XXXX
 XXXX*/
-
-
+/*
+int nombre = 4;
+for (int i = 0; i<nombre; i++)
+{
+    Console.WriteLine(new string('x', 4));
+}*/
 
 
 
