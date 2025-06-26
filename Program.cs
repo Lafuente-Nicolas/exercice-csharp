@@ -572,8 +572,6 @@ for (int i = 0; i<nombre; i++)
     Console.WriteLine(new string('x', 4));
 }*/
 
-
-
 //42. Créer une boucle qui demande un nombre et s'arrête si le nombre est 0.
 
 /*int nombre;
@@ -591,3 +589,22 @@ for (int i = 0; nombre > i; i++)
         nombre = Convert.ToInt32(Console.ReadLine());
     }
 };*/
+
+// 47. Utiliser `break` pour quitter une boucle infinie après 5 itérations.
+
+int i = 1;
+int nombre = 2;
+int count = 0;
+while(i < nombre)
+{
+    Console.WriteLine(nombre);
+    if (count == 4)
+    {
+        break;
+    }
+    else;
+    {
+        count++;
+       
+    }
+};
