@@ -649,3 +649,20 @@ while(nombres <= nombreS)
     }
     nombres++;
 };*/
+
+// 76. Utiliser une boucle pour vérifier si un nombre est parfait (la somme de ses diviseurs est égale à lui-même).
+
+           /* Console.WriteLine("Nombre ?");
+
+            int number = Convert.ToInt32(Console.ReadLine());
+            int sum = 0;
+
+            for (int i = number - 1; i > 0; i--)
+                if (number % i == 0)
+                    sum += i;
+
+            if (sum == number)
+                Console.WriteLine("le nombre est parfait");
+            else
+                Console.WriteLine("le nombre n'est pas parfait");
+        */
