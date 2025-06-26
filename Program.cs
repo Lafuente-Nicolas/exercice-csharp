@@ -620,3 +620,16 @@ for ( int i = 1; i <=20; i++)
     }
     Console.WriteLine(i);
 };*/
+
+//37.Créer une boucle `while` qui décrémente un nombre à partir de 10 jusqu'à 0.
+
+/*int nombreS = 10;
+int nombreI =0;
+if (nombreS != nombreI)
+{
+    while (nombreS >= nombreI)
+    {
+        Console.WriteLine(nombreS);
+        nombreS--;
+    }
+};*/
