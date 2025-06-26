@@ -521,7 +521,7 @@ RepeterMessage("Salut", 3);      // spécifie repetitions=3*/
 
 
 // Exercice 2 : Fonction avec paramètres et retour
-internal class Program
+/*internal class Program
 {
     static int Additionner(int a, int b)
     {
@@ -547,4 +547,14 @@ internal class Program
         Console.WriteLine($"Le résultat est pair:{EstPair(Additionner(a, b))}");
     }
 
-};
+};*/
+
+// 19. Créer un programme qui vérifie si une chaîne de caractères est un palindrome.
+
+string mot = "kayak";
+string motinverse = new string(mot.Reverse().ToArray());
+
+if (mot == motinverse)
+    Console.WriteLine($"Ce mot {mot} est un palindrome");
+else
+    Console.WriteLine($"Ce mot {mot} n'est pas un palindrome");
