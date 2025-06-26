@@ -652,17 +652,28 @@ while(nombres <= nombreS)
 
 // 76. Utiliser une boucle pour vérifier si un nombre est parfait (la somme de ses diviseurs est égale à lui-même).
 
-           /* Console.WriteLine("Nombre ?");
+/* Console.WriteLine("Nombre ?");
 
-            int number = Convert.ToInt32(Console.ReadLine());
-            int sum = 0;
+ int number = Convert.ToInt32(Console.ReadLine());
+ int sum = 0;
 
-            for (int i = number - 1; i > 0; i--)
-                if (number % i == 0)
-                    sum += i;
+ for (int i = number - 1; i > 0; i--)
+     if (number % i == 0)
+         sum += i;
 
-            if (sum == number)
-                Console.WriteLine("le nombre est parfait");
-            else
-                Console.WriteLine("le nombre n'est pas parfait");
-        */
+ if (sum == number)
+     Console.WriteLine("le nombre est parfait");
+ else
+     Console.WriteLine("le nombre n'est pas parfait");
+*/
+
+// 56. Utiliser des boucles imbriquées pour calculer et afficher le produit scalaire de deux tableaux. 
+
+/*double[] tab_0 = { 5, 89, 79, 4, 56 };
+double[] tab_1 = { 8, 9.4, 12, 78, 7.7 };
+double somme = 0;
+for (int i = 0; i < tab_0.Length; i++)
+{
+    somme += (tab_1[i] * tab_0[i]);
+    Console.WriteLine(somme);
+}*/
