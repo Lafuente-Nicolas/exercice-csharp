@@ -551,10 +551,39 @@ RepeterMessage("Salut", 3);      // spécifie repetitions=3*/
 
 // 19. Créer un programme qui vérifie si une chaîne de caractères est un palindrome.
 
-string mot = "kayak";
+/*string mot = "kayak";
 string motinverse = new string(mot.Reverse().ToArray());
 
 if (mot == motinverse)
     Console.WriteLine($"Ce mot {mot} est un palindrome");
 else
-    Console.WriteLine($"Ce mot {mot} n'est pas un palindrome");
+    Console.WriteLine($"Ce mot {mot} n'est pas un palindrome");*/
+
+/*// 52. Créer un programme qui affiche un rectangle de caractères "X" de taille donnée par l'utilisateur.
+Exemple, 4 donne : 
+XXXX
+XXXX
+XXXX
+XXXX*/
+
+
+
+
+
+//42. Créer une boucle qui demande un nombre et s'arrête si le nombre est 0.
+
+/*int nombre;
+Console.WriteLine("Saisissez un nombre");
+nombre = Convert.ToInt32(Console.ReadLine());
+for (int i = 0; nombre > i; i++)
+{
+    if (nombre == 0)
+    {
+        break;
+    }
+    else
+    {
+        Console.WriteLine("Saisissez un nombre");
+        nombre = Convert.ToInt32(Console.ReadLine());
+    }
+};*/
